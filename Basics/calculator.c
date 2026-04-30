@@ -8,9 +8,9 @@ int main(){
         printf("Enter your choice : ");
         scanf("%d",&choice);
         if(choice==5){
-            printf("Exiting.....");
+            printf("Exiting calculator.....\n");
+            break;
         }
-        break;
     }
     printf("Enter two numbers : ");
     scanf("%f %f",&num1, &num2);
