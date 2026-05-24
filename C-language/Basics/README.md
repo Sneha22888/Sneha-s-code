@@ -20,14 +20,6 @@ File: Primechecker.c
 
 ⸻
 
-📄 Basic Starter Program
-
-File: Prog1.c
-✔ Demonstrates the structure of a C program
-✔ Covers input and output basics
-
-⸻
-
 🧮 Calculator
 
 File: calculator.c
