@@ -20,6 +20,7 @@ This repository contains my C programming practice as a first-year student.
 - Prime Checker 
 
 ### Mini Projects
+- Student Record Management System
 
 ---
 
