@@ -7,11 +7,8 @@ This repository contains my C programming practice as a first-year student.
 
 ## 📂 Folder Structure
 
-- basics → beginner programs
-- intermediate → core C concepts
-- advanced → DSA   
-- mini-projects → small real-world programs  
-
+- basics → beginner programs  
+- mini projects → small, real world problems 
 ---
 
 ## 🚀 Programs Included
@@ -22,8 +19,6 @@ This repository contains my C programming practice as a first-year student.
 - Fibonacci Series  
 - Prime Checker 
 
-### Intermediate
-### Advanced
 ### Mini Projects
 
 ---
