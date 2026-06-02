@@ -26,11 +26,11 @@ To compile and run any project locally on your machine, follow these steps:
 ### Prerequisites
 Make sure you have a C compiler installed (like `gcc`).
 
-### Compilation
-Open your terminal inside this directory and run the following command to compile (e.g., the Student Record system):
-
-```bash
-gcc StudentRecord.c -o StudentRecord
+How to Compile and Run
+Compile
+gcc student_record_management.c -o student_management
+Run
+./student_management
 
 Author
 
