@@ -31,3 +31,9 @@ Open your terminal inside this directory and run the following command to compil
 
 ```bash
 gcc StudentRecord.c -o StudentRecord
+
+Author
+
+Sneha Chakraborty
+
+⭐ Feel free to explore the code, suggest improvements, or use it as a learning resource
