@@ -53,9 +53,9 @@ void displayStudents(){
         printf("\nNo record found.\n");
         return;
     }
-    printf("\nRoll No.\tName\tAge\tDepartment\tCGPA\tGrade\n");
+    printf("\n%-6s %-15s %-4s %-15s %-6s %-5s\n","Roll","Name","Age","Department","CGPA","Grade");
     for(int i=0;i<count;i++){
-        printf("%d\t\t%s\t%d\t\t%s\t%.2f\t%c\n",s[i].roll,s[i].name,s[i].age,s[i].department,s[i].cgpa,s[i].grade);
+        printf("%-6d %-15s %-4d %-15s %-6.2f %-5c\n",s[i].roll,s[i].name,s[i].age,s[i].department,s[i].cgpa,s[i].grade);
     }
 }
 //delete students
@@ -88,10 +88,10 @@ void searchStudents(){
     printf("Enter the roll no you want to search : ");
     scanf("%d",&roll);
     for(int i=0;i<count;i++){
-        if(roll==s[count].roll){
+        if(roll==s[i].roll){
             printf("\nStudent found.\n");
-            printf("\nRoll no\tName\tAge\tDepartment\tCGPA\tGrade\n");
-            printf("%d\t\t%s\t\t%d\t\t%s\t\t%.2f\t\t%c",s[i].roll,s[i].name,s[i].age,s[i].department,s[i].cgpa,s[i].grade);
+            printf("\n%-6s %-15s %-4s %-15s %-6s %-5s\n","Roll","Name","Age","Department","CGPA","Grade");
+            printf("%-6d %-15s %-4d %-15s %-6.2f %-5c\n",s[i].roll,s[i].name,s[i].age,s[i].department,s[i].cgpa,s[i].grade);
             found=1;
             break;
         }    
@@ -108,13 +108,13 @@ void updateDetails(){
     for(int i=0;i<count;i++){
         if(roll==s[i].roll){
             printf("Enter new name : ");
-            scanf(" %[^\n]",s[count].name);
+            scanf(" %[^\n]",s[i].name);
             printf("Enter new age : ");
-            scanf("%d",&s[count].age);
+            scanf("%d",&s[i].age);
             printf("Enter new department : ");
-            scanf("%s",s[count].department);
+            scanf("%s",s[i].department);
             printf("Enter new cgpa : ");
-            scanf("%f",&s[count].cgpa);  
+            scanf("%f",&s[i].cgpa);  
             s[i].grade=calculateGrade(s[i].cgpa);
             printf("\nRecord updated sucessfully.\n");
             found=1;
@@ -137,8 +137,8 @@ void displayTopper(){
         }
     }
     printf("\nTopper Details\n");
-    printf("\nRoll no\tName\tAge\tDepartment\tCGPA\tGrade\n");
-    printf("%d\t\t%s\t\t%d\t\t%s\t\t%.2f\t\t%c",s[topper].roll,s[topper].name,s[topper].age,s[topper].department,s[topper].cgpa,s[topper].grade);
+    printf("\n%-6s %-15s %-4s %-15s %-6s %-5s\n","Roll","Name","Age","Department","CGPA","Grade");
+    printf("%-6d %-15s %-4d %-15s %-6.2f %-5c\n",s[topper].roll,s[topper].name,s[topper].age,s[topper].department,s[topper].cgpa,s[topper].grade);
 }
 int main(){
     int choice;
