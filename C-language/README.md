@@ -21,6 +21,7 @@ This repository contains my C programming practice as a first-year student.
 
 ### Mini Projects
 - Student Record Management System
+- Music Playlist Manager
 
 ---
 
