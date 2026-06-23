@@ -1,3 +1,5 @@
+/*Student Record Management System
+(add,display,delete,count,update details,display topper)students by menu driven program*/
 #include<stdio.h>
 #include<stdlib.h>
 struct student{
